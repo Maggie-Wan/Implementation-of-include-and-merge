@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- 實際效果要看套用的那一頁，因為套用那一頁已經有使用orientation,所以這邊不用再設定直接用merge即可 -->
+    <TextView
+        android:id="@+id/no"
+        style="@style/title"
+        android:text="Q" />
+    <TextView
+        android:id="@+id/q"
+        style="@style/question"
+        android:text="question"/>
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/r1"
+            style="@style/radio"
+            tools:text="1"
+            android:tag=""
+            android:onClick="click"/>
+        <RadioButton
+            android:id="@+id/r2"
+            style="@style/radio"
+            tools:text="2"
+            android:tag=""
+            android:onClick="click"/>
+        <RadioButton
+            android:id="@+id/r3"
+            style="@style/radio"
+            tools:text="3"
+            android:tag=""
+            android:onClick="click"/>
+
+    </RadioGroup>
+    <Button
+    android:id="@+id/next"
+    style="@style/button"
+    android:text="Next"
+    android:onClick="next" />
+
+</merge>

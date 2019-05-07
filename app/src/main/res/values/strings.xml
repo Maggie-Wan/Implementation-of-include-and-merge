@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QnA</string>
+    <string name="question1"><![CDATA[<font color="blue">請問人的五感中那個感覺反應最快?</font>]]></string>
+    <string name="q1selection1"><![CDATA[<font color="#444444">視覺</font>]]></string>
+    <string name="q1selection2"><![CDATA[<font color="#444444">聽覺</font>]]></string>
+    <string name="q1selection3"><![CDATA[<font color="#444444">味覺</font>]]></string>
+    <string name="question2"><![CDATA[<font color="blue">請問人體最大的解毒器官是?</font>]]></string>
+    <string name="q2selection1"><![CDATA[<font color="#444444">肝</font>]]></string>
+    <string name="q2selection2"><![CDATA[<font color="#444444">脾</font>]]></string>
+    <string name="q2selection3"><![CDATA[<font color="#444444">腎</font>]]></string>
+    <string name="question3"><![CDATA[<font color="blue">請問血管破裂時，血液中的什麼物質會凝結成塊，堵住破裂部分以止血?</font>]]></string>
+    <string name="q3selection1"><![CDATA[<font color="#444444">紅血球</font>]]></string>
+    <string name="q3selection2"><![CDATA[<font color="#444444">血清</font>]]></string>
+    <string name="q3selection3"><![CDATA[<font color="#444444">血小板</font>]]></string>
+</resources>
